@@ -29,7 +29,7 @@ const Food = () => {
       <h1 className='text-orange-600 font-bold text-4xl text-center '>Top Rated Menu Items</h1>
 
       {/* filter row */}
-      <div className='flex flex-col lg:flex-row justify-between'>
+      <div className='flex flex-col sm:flex-cols-3 lg:flex-row justify-between'>
 
         {/* filter type */}
         <div>

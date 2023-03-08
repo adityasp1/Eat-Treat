@@ -27,7 +27,7 @@ const Navbar = () => {
         <AiOutlineMenu size={30}/>
       </div>
       <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>
-        Eat<span className='font-bold'>Treat</span>
+        Eat<span className='font-bold text-orange-600'>Treat</span>
         </h1>
         <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
             <p onClick={() => setMode('delivery')}
